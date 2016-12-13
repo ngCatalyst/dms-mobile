@@ -1,11 +1,149 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Catalyst</title>
-    </head>
-    <body>
-        <!-- inject:js -->
-        <!-- endinject -->
-        <script src="app.js"></script>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catalyst</title>
+    <!-- inject:css -->
+    <!-- endinject -->
+    <link href="https://fonts.googleapis.com/css?family=Basic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#">Catalyst</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-newspaper-o"></i> Communications <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Podcasts</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="#"><i class="fa fa-cogs"></i> Services</a></li>
+                    <li><a href="#"><i class="fa fa-camera"></i> Gallery</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <div class="jumbotron cat-jumbotron">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="cat-no-margin">Our Capabilities</h3>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="panel panel-default cat-panel">
+                        <div class="panel-body">
+                            <img src="http://image.flaticon.com/icons/svg/167/167843.svg" width="50" height="50">
+                        </div>
+                        <div class="panel-body cat-no-padding-top">
+                            <span>Innovate / Proof of Concepts</span>
+                        </div>
+                        <div class="panel-body cat-no-padding-top">
+                            <p class="cat-p">more content...</p>
+                        </div>
+                       <div class="panel-body cat-no-padding-top text-center">
+                            <button class="btn btn-default cat-btn">More...</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="panel panel-default cat-panel">
+                        <div class="panel-body">
+                            <img src="http://image.flaticon.com/icons/svg/150/150269.svg" width="50" height="50">
+                        </div>
+                        <div class="panel-body cat-no-padding-top">
+                            <span>External Investments</span>
+                        </div>
+                        <div class="panel-body cat-no-padding-top">
+                            <p class="cat-p">more content...</p>
+                        </div>
+                        <div class="panel-body cat-no-padding-top text-center">
+                            <button class="btn btn-default cat-btn">More...</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="panel panel-default cat-panel">
+                        <div class="panel-body">
+                            <img src="http://image.flaticon.com/icons/svg/230/230317.svg" width="50" height="50">
+                        </div>
+                        <div class="panel-body cat-no-padding-top">
+                            <span>In-house Development</span> 
+                        </div>
+                        <div class="panel-body cat-no-padding-top">
+                            <p class="cat-p">more content...</p>
+                        </div>
+                        <div class="panel-body cat-no-padding-top text-center">
+                            <button class="btn btn-default cat-btn">More...</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="panel panel-default cat-panel">
+                    <div class="panel-heading">Latest News</div>
+                    <div class="panel-body">
+                        testing
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                testing
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-primary cat-panel">
+                    <div class="panel-heading">Social Media</div>
+                    <div class="panel-body">
+                        testing
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="cat-footer navbar-fixed-bottom">
+        <div class="container">
+            test
+        </div>
+    </footer>
+    <!-- inject:js -->
+    <!-- endinject -->
+    <script src="app.js"></script>
+</body>
 </html>

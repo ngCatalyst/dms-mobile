@@ -1,0 +1,47 @@
+body {
+    font-family: 'Basic', sans-serif;
+}
+
+body > .container {
+    margin-top: 50px;
+}
+
+.jumbotron.cat-jumbotron {
+    border-radius: 0;
+}
+
+.panel.cat-panel {
+    border-radius: 0;
+}
+
+.panel.cat-panel > .panel-heading {
+    border-radius: 0;
+}
+
+.cat-footer{
+    width:100%;  
+    background-color: #222; /* This color gets inverted color or you can add navbar inverse class in html */
+}
+
+.btn.cat-btn {
+    border-radius: 0;
+    font-size: 0.8em;
+}
+
+.cat-no-margin { margin: 0; }
+
+.cat-no-padding-top { padding-top: 0; }
+
+p.cat-p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/*body {
+    background-image: url('conference.jpeg');
+    background-size: 100%;
+}*/
+
+/*body {
+    background: #eaeaea;
+}*/
