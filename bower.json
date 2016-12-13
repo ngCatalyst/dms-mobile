@@ -1,0 +1,20 @@
+{
+  "name": "dms-mobile",
+  "description": "A simple mobile user interface that allows users to interact with the dms-service RESTful API",
+  "main": "user.js",
+  "authors": [
+    "catalyst"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ngCatalyst/dms-mobile",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
